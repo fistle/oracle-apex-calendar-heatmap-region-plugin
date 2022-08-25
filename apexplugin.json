@@ -2,10 +2,10 @@
 	"name": "CalendarHeatmap",
 	"version": "1.0",
 	"description": "Display a calendar heatmap",
-	"keywords": ["progress"],
-	"homepage": "https://github.com/fistle/oracle-apex-progress-status-region-plugin.git",
+	"keywords": ["calendar","heatmap","echarts"],
+	"homepage": "https://github.com/fistle/oracle-apex-calendar-heatmap-region-plugin.git",
 	"bugs": {
-		"url": "https://github.com/fistle/oracle-apex-progress-status-region-plugin/issues",
+		"url": "https://github.com/fistle/oracle-apex-calendar-heatmap-region-plugin/issues",
 		"email": "davielang@gmail.com"
 	},
 	"license": "MIT",
@@ -18,17 +18,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fistle/oracle-apex-progress-status-region-plugin.git"
+		"url": "https://github.com/fistle/oracle-apex-calendar-heatmap-region-plugin.git"
 	},
 	"oracle": {
 		"versions": ["11.2.0.1", "12.1.0.1"],
 		"apex": {
 			"versions": ["22.1.0"],
 			"plugin": {
-				"internalName": "GLASGOW-PROGRESS-STATUS",
+				"internalName": "GLASGOW-CALENDAR-HEATMAP",
 				"type": "region",
 				"demo": "https://kjwvivmv0n5reuj-apexkqor.adb.uk-london-1.oraclecloudapps.com/ords/r/test1/apex-plugins/home",
-                                "previewImage" : "https://github.com/fistle/oracle-apex-progress-status-region-plugin/blob/main/progress-indicator.gif?raw=true'"
+                                "previewImage" : "https://github.com/fistle/oracle-apex-calendar-heatmap-region-plugin/blob/main/calendar-heatmap-1.gif?raw=true'"
 
 			}
 		}
